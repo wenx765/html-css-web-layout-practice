@@ -1,0 +1,816 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      【練習】inline 訂候位系統- 預約、排隊、訂餐、CRM，一台iPad 搞定
+    </title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="inline_website.css" />
+    <link
+      rel="icon"
+      href="https://inline.company/wp-content/uploads/2018/03/inline-x76@2x.png"
+      type="image/x-icon"
+    />
+    <script src="tabs.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="https://inline.app/zh/">
+          <img
+            src="./images/inline_logo.png"
+            alt="inline logo"
+            class="inline-logo"
+          />
+        </a>
+        <nav class="nav-bar">
+          <a href="#" class="nav-link">合作夥伴</a>
+          <a href="#" class="nav-link">主要服務</a>
+          <a href="https://inline.app/zh/clients" class="nav-link">客戶推薦</a>
+          <a href="https://inline.app/zh/news" class="nav-link">品牌合作</a>
+          <a href="https://inline.app/zh/contact" class="nav-link">申請試用</a>
+          <a
+            href="https://intercom.help/inlinetocustomer/zh-TW"
+            class="nav-link"
+          >
+            消費者常見問題
+          </a>
+          <a
+            href="https://www.opentable.com.tw/?utm_source=inline&utm_medium=official&utm_campaign=website"
+            target="_blank"
+          >
+            <button type="button" class="opentable-btn">
+              <img
+                src="./images/open table_icon.png"
+                alt="OpenTable logo"
+                class="opentable-logo"
+              />
+              餐廳隨時訂
+            </button>
+          </a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="info-block">
+        <div class="info-block-1">
+          <div class="container">
+            <div class="info-content">
+              <h1>接待，<span class="orange-text">不再手忙腳亂</span></h1>
+              <h2>Reception, no longer a hassle</h2>
+              <p>
+                inline 是一套專供餐廳經營者使用，
+                <br />
+                以雲端作業將訂位流程自動化，
+                <br />
+                提高效率、減低錯誤的雲端管理系統。
+              </p>
+              <a href="#cta-form">
+                <button type="button">立即試用</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="info-block-2">
+          <p>
+            inline 的服務範圍已拓展到台灣、香港、日本、馬來西亞、新加坡、
+            <br />
+            泰國、美國及世界其他地區，並支援多國語系操作介面。
+          </p>
+        </div>
+      </section>
+      <section class="features-block">
+        <h2 class="orange-text features-title">強大的生產力工具</h2>
+        <p class="features-subtitle">inline 三大管理功能，提高訂位效率</p>
+        <div class="booking-management">
+          <div class="container booking-wrap">
+            <img
+              src="https://inline.company/wp-content/uploads/2023/12/New-official-website_v2_%E8%A8%82%E4%BD%8D%E7%AE%A1%E7%90%86_TC-1.png"
+              alt="訂位管理"
+              class="booking-img"
+            />
+            <div class="booking-content">
+              <h2>訂位管理</h2>
+              <div class="booking-item">
+                <img
+                  src="https://inline.company/wp-content/uploads/2018/05/rsv_01@2x.png"
+                  alt="資訊彙整，多重顯示。"
+                  class="item-icon"
+                />
+                <div class="item-text">
+                  <h3>資訊彙整，多重顯示。</h3>
+                  <p>
+                    隨時都可快速瀏覽每日訂候位列表、桌位圖以及顧客資訊，訂位從各平台串連，皆多重顯示，一覽無遺。
+                  </p>
+                </div>
+              </div>
+              <div class="booking-item">
+                <img
+                  src="https://inline.company/wp-content/uploads/2018/05/rsv_02@2x.png"
+                  alt="⾃動確認訂位"
+                  class="item-icon"
+                />
+                <div class="item-text">
+                  <h3>⾃動確認訂位</h3>
+                  <p>
+                    顧客用餐前，系統再次自動寄送簡訊進行確認，降低人為疏失，訂位管理更有效率。
+                  </p>
+                </div>
+              </div>
+              <div class="booking-item">
+                <img
+                  src="https://inline.company/wp-content/uploads/2018/05/rsv_03@2x.png"
+                  alt="設定開放桌位時段"
+                  class="item-icon"
+                />
+                <div class="item-text">
+                  <h3>設定開放桌位時段</h3>
+                  <p>
+                    提供全客製化桌位配置圖，指定各時段可訂位人數，不怕超接顧客，還可以設定VIP桌，控位一手掌握。
+                  </p>
+                </div>
+              </div>
+              <div class="booking-item">
+                <img
+                  src="https://inline.company/wp-content/uploads/2018/05/rsv_04@2x.png"
+                  alt="預收訂⾦管理"
+                  class="item-icon"
+                />
+                <div class="item-text">
+                  <h3>預收訂⾦管理</h3>
+                  <p>
+                    inline
+                    提供預收訂金功能，系統也與金流串接，顧客可直接信用卡線上付款；平板上隨時追蹤顧客繳交訂金狀況，帳務更順暢。
+                  </p>
+                </div>
+              </div>
+              <div class="booking-item">
+                <img
+                  src="https://inline.company/wp-content/uploads/2018/05/rsv_05@2x.png"
+                  alt="雲端運算管理排程"
+                  class="item-icon"
+                />
+                <div class="item-text">
+                  <h3>雲端運算管理排程</h3>
+                  <p>
+                    我們提供了強大的雲端資料庫系統，可即時更新資料，多平台同步運作，精準又安全，管理訂位更方便。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="management-bg">
+          <div class="container waitlist-wrap">
+            <div class="waitlist-content">
+              <h2>候位管理</h2>
+              <div class="waitlist-item">
+                <img
+                  src="https://inline.company/wp-content/uploads/2018/05/waiting_01@2x.png"
+                  alt="多種顧客排隊登記方式"
+                  class="item-icon"
+                />
+                <div class="item-text">
+                  <h3>多種顧客排隊登記方式</h3>
+                  <p>
+                    顧客除了可以使用 iPad 觸控、Kiosk 螢幕登記之外，也可支援 QR
+                    code 掃描報到及候位電視牆功能，幫助餐廳疏通排隊人潮。
+                  </p>
+                </div>
+              </div>
+              <div class="waitlist-item">
+                <img
+                  src="https://inline.company/wp-content/uploads/2018/05/waiting_02@2x.png"
+                  alt="⾃動安排候位時序"
+                  class="item-icon"
+                />
+                <div class="item-text">
+                  <h3>⾃動安排候位時序</h3>
+                  <p>
+                    候位登記時，系統自動為顧客排號，每組客人都有自己專屬的一組候位序號，排隊報到沒煩惱。
+                  </p>
+                </div>
+              </div>
+              <div class="waitlist-item">
+                <img
+                  src="https://inline.company/wp-content/uploads/2018/05/waiting_03@2x.png"
+                  alt="顧客不需下載app"
+                  class="item-icon"
+                />
+                <div class="item-text">
+                  <h3>顧客不需下載app</h3>
+                  <p>
+                    登記候位完立即傳送簡訊連結，顧客完全不需下載多餘的
+                    app，隨時查看現場候位排號狀況。
+                  </p>
+                </div>
+              </div>
+              <div class="waitlist-item">
+                <img
+                  src="https://inline.company/wp-content/uploads/2018/05/waiting_04@2x.png"
+                  alt="一鍵叩客"
+                  class="item-icon"
+                />
+                <div class="item-text">
+                  <h3>一鍵叩客</h3>
+                  <p>
+                    輪到該組客人後，餐廳一鍵呼叫顧客回店用餐，省去人工電話確認的時間，為餐廳提供更高的待客效率。
+                  </p>
+                </div>
+              </div>
+              <div class="waitlist-item">
+                <img
+                  src="https://inline.company/wp-content/uploads/2018/05/waiting_05@2x.png"
+                  alt="支援遠端監控"
+                  class="item-icon"
+                />
+                <div class="item-text">
+                  <h3>支援遠端監控</h3>
+                  <p>
+                    即使餐廳人員不在現場，手機只要連上網路，店家即可遠端監控訂候位狀態，安心度爆表。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <img
+              src="https://inline.company/wp-content/uploads/2023/12/New-official-website_v2_候位管理_TC.png"
+              alt="候位管理"
+              class="waitlist-img"
+            />
+          </div>
+          <div class="container crm-wrap">
+            <img
+              src="https://inline.company/wp-content/uploads/2023/12/New-official-website_v2_顧客管理_TC.png"
+              alt="顧客管理"
+              class="crm-img"
+            />
+            <div class="crm-content">
+              <h2>顧客管理</h2>
+              <div class="crm-item">
+                <img
+                  src="https://inline.company/wp-content/uploads/2018/05/crm_01@2x.png"
+                  alt="顧客資料庫"
+                  class="item-icon"
+                />
+                <div class="item-text">
+                  <h3>顧客資料庫</h3>
+                  <p>
+                    餐廳可隨時調閱顧客跨餐廳、跨分店消費記錄，每筆訂候位都會存入後台，建立餐飲業龐大資料庫。
+                  </p>
+                </div>
+              </div>
+              <div class="crm-item">
+                <img
+                  src="https://inline.company/wp-content/uploads/2018/05/crm_02@2x.png"
+                  alt="記錄顧客喜好"
+                  class="item-icon"
+                />
+                <div class="item-text">
+                  <h3>記錄顧客喜好</h3>
+                  <p>
+                    這位客人不吃辣？這位客人喜歡坐室外？inline
+                    全部幫你記錄起來，餐廳可自訂客人喜好，往後對回頭客的新進訂候位就可以貼心應對！
+                  </p>
+                </div>
+              </div>
+              <div class="crm-item">
+                <img
+                  src="https://inline.company/wp-content/uploads/2018/05/crm_03@2x.png"
+                  alt="統計數據管理"
+                  class="item-icon"
+                />
+                <div class="item-text">
+                  <h3>統計數據管理</h3>
+                  <p>
+                    針對不同顧客，inline
+                    提供輔助行銷、數據收集、統計報表等顧客關係管理工具，增加餐廳好感度，有效提高顧客回頭率。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="partners-block">
+        <div class="container">
+          <h2 class="partners-title">正在使用inline的合作夥伴…</h2>
+          <ul class="partners-tabs">
+            <li class="active" data-category="chain">
+              <a href="#" class="tab-link">連鎖餐飲集團</a>
+            </li>
+            <li data-category="hotel">
+              <a href="#" class="tab-link">五星級飯店</a>
+            </li>
+            <li data-category="mall">
+              <a href="#" class="tab-link">百貨賣場</a>
+            </li>
+            <li data-category="michelin">
+              <a href="#" class="tab-link">米其林星級</a>
+            </li>
+            <li data-category="famous">
+              <a href="#" class="tab-link">特色名店</a>
+            </li>
+            <li data-category="overseas">
+              <a href="#" class="tab-link">海外</a>
+            </li>
+          </ul>
+          <div class="partners-content">
+            <div id="chain" class="partners-logos active">
+              <div class="logo-item">
+                <img src="./images/王品.png" alt="王品" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/貳樓.png" alt="貳樓" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/這一鍋.png" alt="這一鍋" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/屋馬.png" alt="屋馬" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/金色三麥.png" alt="金色三麥" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/馬辣.png" alt="馬辣" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/茄子.png" alt="茄子" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/猩猩.png" alt="猩猩" class="special-img" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/熊.png" alt="熊" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/瓦城.png" alt="瓦城" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/橘色.png" alt="橘色" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/涮乃葉.png" alt="涮乃葉" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/乾杯.png" alt="乾杯" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/海底撈.png" alt="海底撈" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/鼎王.png" alt="鼎王" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/犇.png" alt="犇" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/TGI.png" alt="TGI" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/吉比.png" alt="吉比" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/饗麻饗辣.png" alt="饗辣" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/藏壽司.png" alt="藏壽司" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/添好運.png" alt="添好運" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/厝秘.png" alt="厝秘" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/易鼎活蝦.png" alt="易鼎活蝦" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/魚.png" alt="魚" />
+              </div>
+            </div>
+            <div id="hotel" class="partners-logos">
+              <div class="logo-item">
+                <img src="./images/飯店/晶華.png" alt="晶華" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/飯店/福華.png" alt="福華" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/飯店/美福.png" alt="美福" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/飯店/王子.png" alt="王子" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/飯店/威斯汀.png" alt="威斯汀" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/飯店/圓山.png" alt="圓山" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/飯店/愛麗絲.png" alt="愛麗絲" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/飯店/s.png" alt="s" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/飯店/誠品.png" alt="誠品" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/飯店/裕元.png" alt="裕元" />
+              </div>
+            </div>
+            <div id="mall" class="partners-logos">
+              <div class="logo-item">
+                <img src="./images/百貨/sogo.png" alt="sogo" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/百貨/微風.png" alt="微風" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/百貨/三越.png" alt="三越" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/百貨/夢時代.png" alt="夢時代" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/百貨/統一.png" alt="統一" />
+              </div>
+              <div class="logo-item">
+                <img
+                  src="./images/百貨/綠園道.png"
+                  alt="綠園道
+                "
+                />
+              </div>
+            </div>
+            <div id="michelin" class="partners-logos">
+              <div class="logo-item">
+                <img src="./images/米其林/頤宮.png" alt="頤宮" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/米其林/L'atelier.png" alt="L'atelier" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/米其林/taïrroir.png" alt="taïrroir" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/米其林/龍吟.png" alt="龍吟" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/米其林/山海樓.png" alt="山海樓" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/米其林/教父牛排.png" alt="教父牛排" />
+              </div>
+            </div>
+            <div id="famous" class="partners-logos">
+              <div class="logo-item">
+                <img src="./images/特色/一蘭.png" alt="一蘭" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/特色/詹記.png" alt="詹記" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/特色/lawrys.png" alt="lawrys" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/特色/鹽之華.png" alt="鹽之華" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/特色/flipper's.png" alt="flipper's" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/特色/lady m.png" alt="lady m" />
+              </div>
+            </div>
+            <div id="overseas" class="partners-logos">
+              <div class="logo-item">
+                <img src="./images/海外/金滿庭.png" alt="金滿庭" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/海外/黃珍珍.png" alt="黃珍珍" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/海外/dan.png" alt="dan" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/海外/酒鍋.png" alt="酒鍋" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/海外/相馬.png" alt="相馬" />
+              </div>
+              <div class="logo-item">
+                <img src="./images/海外/樂天.png" alt="v" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="cta-block">
+        <p class="cta-quote">
+          “inline 是目前世界上最好用的
+          <br />
+          訂候位控管、帶位工具及顧客管理系統”
+          <br />
+          <span>– 許禮麟 / 金田餐飲集團總經理</span>
+        </p>
+        <form action="" class="cta-form" id="cta-form">
+          <p>Hi 餐廳老闆</p>
+          <p>
+            此表單為提供餐廳試用系統，<span>我們無法提供代訂服務</span>
+            <br />
+            消費者訂位、訂餐請 >
+            <a href="https://www.opentable.com.tw/" target="_blank">
+              查詢附近餐廳
+            </a>
+          </p>
+          <p>
+            現在申請可享 14 天免費試用＋專人導入教學
+            <br />
+            快讓 inline app 成為您餐廳的最佳助手！
+          </p>
+          <div class="text-input">
+            <label for="name">聯絡人姓名（必填）</label>
+            <input
+              type="text"
+              name=""
+              class="name"
+              id="name"
+              placeholder="e.g.Mayer"
+              required
+            />
+          </div>
+          <div class="text-input">
+            <label for="phone-number">手機號碼（必填）</label>
+            <input
+              type="text"
+              name=""
+              class="phone-number"
+              id="phone-number"
+              placeholder="e.g.8526377XXXX"
+              required
+            />
+          </div>
+          <div class="text-input">
+            <label for="email">電子信箱（必填）</label>
+            <input
+              type="email"
+              name=""
+              class="email"
+              id="email"
+              placeholder="e.g.welcome@inline.app"
+              required
+            />
+          </div>
+          <div class="text-input">
+            <label for="restaurant-name">您的餐廳名稱（必填）</label>
+            <input
+              type="text"
+              name=""
+              class="restaurant-name"
+              id="restaurant-name"
+              placeholder="e.g.Mayer"
+              required
+            />
+          </div>
+          <div>
+            <label for="country">您餐廳的所在國家（必填）</label>
+            <br />
+            <select name="country" id="country" required>
+              <option value="" selected disabled hidden>-請選擇國家-</option>
+              <option value="AU">澳大利亞</option>
+              <option value="CA">加拿大</option>
+              <option value="HK">香港</option>
+              <option value="ID">印尼</option>
+              <option value="JP">日本</option>
+              <option value="KR">韓國</option>
+              <option value="MO">澳門</option>
+              <option value="MY">馬來西亞</option>
+              <option value="NZ">紐西蘭</option>
+              <option value="PH">菲律賓</option>
+              <option value="SG">新加坡</option>
+              <option value="TW">台灣</option>
+              <option value="TH">泰國</option>
+              <option value="US">美國</option>
+              <option value="VN">越南</option>
+            </select>
+          </div>
+          <div class="text-input">
+            <label for="job-title">您的職稱（必填）</label>
+            <input
+              type="text"
+              name=""
+              class="job-title"
+              id="job-title"
+              required
+            />
+          </div>
+          <div class="text-input">
+            <label for="competitor-check"
+              >是否有使用過其他訂候位管理系統？（必填）</label
+            >
+            <input
+              type="text"
+              name=""
+              class="competitor-check"
+              id="competitor-check"
+              required
+            />
+          </div>
+          <div>
+            <label for="interest">您對 inline 的哪個功能有興趣？（必填）</label>
+            <br />
+            <select name="interest" id="interest" required>
+              <option value="" selected disabled hidden>--請選擇--</option>
+              <option value="none">--None--</option>
+              <option value="booking">訂候位管理</option>
+              <option value="takeout">外帶外送服務</option>
+              <option value="both">兩者皆有興趣</option>
+            </select>
+          </div>
+          <div class="text-input">
+            <label for="source">您是從哪裡獲得inline的資訊？（必填）</label>
+            <select name="source" id="source" required>
+              <option value="" selected disabled hidden>--請選擇--</option>
+              <option value="none">--None--</option>
+              <option value="google">Google搜尋</option>
+              <option value="social-media">
+                社群媒體(Facebook/Instagram...等)
+              </option>
+              <option value="ads">網站廣告</option>
+              <option value="referral">朋友介紹</option>
+              <option value="other-restaurant">其他餐廳</option>
+              <option value="opentable">Opentable</option>
+              <option value="linkedin">Linkedin</option>
+              <option value="offline-event">線下活動</option>
+              <option value="telemarketing">inline專人電洽</option>
+            </select>
+          </div>
+          <div class="captcha">
+            <img src="./images/驗證.png" alt="我不是機器人" />
+          </div>
+          <button type="submit">送出</button>
+          <small
+            >此表單為提供餐廳試用系統，請勿在此進行餐廳線上訂位，如需訂位請直接聯繫餐廳</small
+          >
+        </form>
+        <div class="cta-more">
+          <p>inline 還有什麼強大之處？</p>
+          <a href="https://inline.app/zh/why-inline">
+            <button>點擊了解更多</button>
+          </a>
+        </div>
+        <div class="cta-contact-wrap">
+          <div class="contact-method">
+            <h3>直接電話聯繫我們</h3>
+            <p>電話客服時間： <br />星期一 ~ 星期五 10:00 ~ 19:00</p>
+            <a href="tel:+886223223414" class="tel"> +886 - 2 - 2322 - 3414 </a>
+          </div>
+          <div class="divider"></div>
+          <div class="contact-method">
+            <h3>立即免費試用 inline</h3>
+            <p>
+              免費前兩週試用期，歡迎填寫表單聯絡我們，<br />我們會有專人盡快回覆您！
+            </p>
+            <a href="https://inline.app/zh/contact">
+              <button class="trial-btn">立即免費試用</button>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-top">
+        <div class="container">
+          <img src="./images/inline_logo.png" alt="inline-logo" />
+          <div class="add">
+            <p>台灣｜統編 52384127</p>
+            <p>
+              100009
+              <br />
+              台北市中正區北平東路30-1號5樓
+            </p>
+          </div>
+          <div class="add">
+            <p>香港｜統編 2303318</p>
+            <p>
+              香港上環皇后大道中181號
+              <br />
+              新紀元廣場低座24樓2406B室
+            </p>
+          </div>
+          <div class="add">
+            <p>新加坡｜統編 201900515R</p>
+            <p>
+              160 Robinson Road, #14-04
+              <br />
+              Singapore Business
+              <br />
+              Federation Centre, Singapore
+              <br />
+              068914
+            </p>
+          </div>
+          <div class="add">
+            <p>澳洲｜統編 648 810 600</p>
+            <p>
+              Level 1/580 Church St, Richmond
+              <br />
+              VIC 3121
+            </p>
+          </div>
+          <div class="add">
+            <p>日本</p>
+            <p>
+              〒105-6009
+              <br />
+              <br />
+              東京都港区虎ノ門4丁目3番1号
+              <br />
+              城山トラストタワー9階
+              <br />
+              東京赤坂法律事務所内
+            </p>
+          </div>
+          <div class="contact-us">
+            <h3>Contact us</h3>
+            <p>
+              聯絡電話：+886 (02) 2322-3414
+              <br />
+              服務時間：週一至週五 10:00–19:00
+            </p>
+            <p>
+              潛在合作或既有店家支援
+              <br />
+              <a href="mailto:support@inline.app" class="mail-link"
+                >support@inline.app
+              </a>
+            </p>
+            <p>
+              消費者訂候位／外帶外送相關問題
+              <br />
+              <a href="mailto:patron-help@inline.app" class="mail-link"
+                >patron-help@inline.app
+              </a>
+            </p>
+            <p>
+              異業合作洽談或餐飲新聞稿聯繫
+              <a href="mailto:marketing@inline.tw" class="mail-link"
+                >marketing@inline.tw
+              </a>
+            </p>
+          </div>
+          <div class="language-switcher">
+            <h3>語言</h3>
+            <a href="https://inline.app">English (US)</a>
+            <a class="active-lang">繁體中文</a>
+            <a href="https://inline.app/jp/">日本語</a>
+          </div>
+          <h3 class="social-media">Instagram</h3>
+          <h3 class="social-media">
+            <a href="https://www.facebook.com/inlineapps/" target="_blank"
+              >Facebook Page</a
+            >
+          </h3>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="copy-right">
+            © 2025 inline 版權所有。
+            <a href="https://inline.app/zh/tos">服務條款</a> |
+            <a href="https://inline.app/zh/privacy">隱私權政策</a>
+          </div>
+          <div class="bottom-icons">
+            <a href="https://www.facebook.com/inlineapps/" target="_blank">
+              <img src="./images/facebook.png" alt="facebook" class="fb-icon" />
+            </a>
+            <a href="https://www.instagram.com/inline.tw/" target="_blank">
+              <img
+                src="./images/instagram.png"
+                alt="instagram"
+                class="ig-icon"
+              />
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCi7jKrdiXckUqBdCLjMweLQ"
+              target="_blank"
+            >
+              <img src="./images/youtube.png" alt="youtube" class="yt-icon" />
+            </a>
+            <a href="https://medium.com/inline.tw" target="_blank">
+              <img src="./images/medium.png" alt="medium" class="md-icon" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="support-widget">
+      <img src="./images/inline_logo_w.png" alt="inline logo" />
+    </div>
+  </body>
+</html>
