@@ -1,3 +1,13 @@
+::selection {
+  background-color: #ff6337;
+  color: white;
+}
+
+::-moz-selection {
+  background-color: #ff6337;
+  color: white;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -39,22 +49,23 @@ header .container {
   width: 90px;
 }
 
-.nav-bar {
+.nav-list {
   display: flex;
   align-items: center;
   gap: 30px;
 }
 
 .nav-link {
+  display: block;
+  padding: 20px 0;
   font-size: 15px;
   color: #505563;
-  text-align: center;
   font-weight: 545;
+  transition: 0.3s;
 }
 
 .nav-link:hover {
   color: #ff6337;
-  transition: 0.3s;
 }
 
 .opentable-btn {
@@ -62,22 +73,22 @@ header .container {
   color: white;
   font-size: 18px;
   font-weight: bold;
-  line-height: 1;
-  text-align: center;
   border-radius: 30px;
   padding: 6px 30px;
   cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
 }
 
 .opentable-btn:hover {
   background-color: #b32d36;
-  transition: 0.3s;
 }
 
 .opentable-logo {
-  display: inline;
   width: 25px;
-  margin-right: 3px;
+  margin-right: 5px;
 }
 
 .info-block-1 {
@@ -286,9 +297,13 @@ header .container {
 }
 
 .logo-item img {
-  width: 100%;
+  width: 40%;
   transition: 0.5s;
   object-fit: contain;
+}
+
+#chain .logo-item:nth-child(-n + 6) img {
+  width: 100%;
 }
 
 .logo-item img:hover {
